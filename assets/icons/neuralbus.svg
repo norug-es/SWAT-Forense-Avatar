@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" role="img" aria-label="neuralbus">
+ <defs>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12e9ef"/><stop offset="1" stop-color="#7a89ff"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1728"/><stop offset="1" stop-color="#10102a"/></linearGradient>
+ </defs>
+ <rect x="2" y="2" width="64" height="64" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.7"/>
+ <g stroke="url(#border)" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="12" y="16" width="21" height="16" rx="4"/><rect x="35" y="16" width="21" height="16" rx="4"/><rect x="24" y="39" width="21" height="16" rx="4"/><path d="M23 32v7m23-7v7M23 39h23"/></g>
+</svg>

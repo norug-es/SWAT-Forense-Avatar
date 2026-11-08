@@ -1,0 +1,26 @@
+:root {
+  color: #e7edf8;
+  background: #05070d;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { min-height: 100%; margin: 0; }
+body { min-width: 320px; background: radial-gradient(circle at 50% 0%, #121a2c 0, #05070d 55%); }
+
+.swat-shell { min-height: 100vh; padding: 28px clamp(16px, 4vw, 56px); }
+.swat-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; max-width: 1500px; margin: 0 auto 18px; }
+.eyebrow { margin: 0 0 8px; color: #8da5cc; font: 700 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .18em; }
+h1 { margin: 0; font-size: clamp(30px, 5vw, 56px); letter-spacing: -.05em; }
+.subtitle { margin: 8px 0 0; color: #91a0b9; font-size: 15px; }
+.live-pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid #254d47; border-radius: 999px; color: #8be7ba; font: 700 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; }
+.live-pill i { width: 7px; height: 7px; border-radius: 50%; background: #40e6a1; box-shadow: 0 0 12px #40e6a1; }
+.avatar-stage { position: relative; min-height: min(760px, calc(100vh - 150px)); max-width: 1500px; margin: 0 auto; overflow: hidden; border: 1px solid #1a263b; border-radius: 24px; background: rgba(7, 11, 20, .72); box-shadow: 0 24px 80px rgba(0,0,0,.35); }
+
+@media (max-width: 680px) {
+  .swat-shell { padding: 18px 10px; }
+  .swat-header { display: block; }
+  .live-pill { margin-top: 14px; }
+  .avatar-stage { min-height: calc(100vh - 190px); border-radius: 16px; }
+}

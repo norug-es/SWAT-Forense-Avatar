@@ -1,0 +1,14 @@
+{
+  "name": "swat-forense-avatar-gateway",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=../.env server.mjs",
+    "check": "node --check server.mjs",
+    "test": "node --test server.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" role="img" aria-label="risk">
+ <defs>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc45e"/><stop offset="1" stop-color="#ff539f"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1728"/><stop offset="1" stop-color="#10102a"/></linearGradient>
+ </defs>
+ <rect x="2" y="2" width="64" height="64" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.7"/>
+ <g stroke="url(#border)" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="34" cy="34" r="22"/><circle cx="34" cy="34" r="12"/><circle cx="34" cy="34" r="3"/><path d="M34 34 52 21M34 8v6m0 40v6M8 34h6m40 0h6"/></g>
+</svg>
